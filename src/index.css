@@ -1,0 +1,21 @@
+.App {
+  font-family: sans-serif;
+  text-align: left;
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+  align-items: left;
+}
+
+.flex > div {
+  margin: 0 1rem 2rem 1rem;
+  text-align: left;
+}
+
+img {
+  display: inline-block;
+  max-width: 100%;
+}
